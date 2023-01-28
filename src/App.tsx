@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Search } from './pages/Search';
 import { Watch } from './pages/Watch';
@@ -7,6 +8,7 @@ import { Watch } from './pages/Watch';
 export const App: FC = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route
           path='/'
