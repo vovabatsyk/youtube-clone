@@ -8,7 +8,6 @@ import { Watch } from './pages/Watch';
 export const App: FC = () => {
   return (
     <BrowserRouter>
-      <Navbar />
       <Routes>
         <Route
           path='/'

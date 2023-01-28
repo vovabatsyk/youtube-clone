@@ -24,7 +24,7 @@ export const Navbar: FC<INavbarProps> = () => {
       </div>
       <div className='flex items-center h-10 justify-center gap-5'>
         <form action=''>
-          <div className='flex bg-zinc-900 items-center h-10 px-4 pr-0'>
+          <div className='flex bg-zinc-900 items-center h-10 px-4 pr-0 rounded-full'>
             <div className='flex gap-4 items-center pr-5'>
               <div>
                 <AiOutlineSearch className='text-xl' />
@@ -33,10 +33,9 @@ export const Navbar: FC<INavbarProps> = () => {
                 type='text'
                 className='w-96 bg-zinc-900 focus:outline-none border-none'
               />
-              {/* <AiOutlineClose className='h-10 w-16 flex items-center justify-center bg-zinc-900 ' /> */}
               <AiOutlineClose className='text-xl cursor-pointer ' />
             </div>
-            <button className='h-10 w-16 flex items-center justify-center bg-zinc-900 '>
+            <button className='h-10 w-16 flex items-center justify-center bg-zinc-900 rounded-full'>
               <AiOutlineSearch className='text-xl' />
             </button>
           </div>
